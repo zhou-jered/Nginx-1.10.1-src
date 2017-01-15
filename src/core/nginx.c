@@ -186,7 +186,6 @@ static char **ngx_os_environ;
 int ngx_cdecl
 main(int argc, char *const *argv)
 {
-    printf("Hello my nginx code");
     ngx_buf_t        *b;
     ngx_log_t        *log;
     ngx_uint_t        i;

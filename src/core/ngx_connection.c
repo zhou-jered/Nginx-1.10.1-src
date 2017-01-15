@@ -1042,9 +1042,6 @@ ngx_get_connection(ngx_socket_t s, ngx_log_t *log)
         return NULL;
     }
 
-    ngx_log_error(NGX_LOG_ALERT, log, 0, "Hello  this is an error log from unexpect"
-                  "I do not know whya this");
-    
     c = ngx_cycle->free_connections;
 
     if (c == NULL) {
