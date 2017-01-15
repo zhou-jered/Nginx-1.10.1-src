@@ -1041,6 +1041,8 @@ ngx_get_connection(ngx_socket_t s, ngx_log_t *log)
                       s, ngx_cycle->files_n);
         return NULL;
     }
+    
+    ngx_log_error(NGX_LOG_ALERT, log, 0, "here is an error from custom");
 
     c = ngx_cycle->free_connections;
 
