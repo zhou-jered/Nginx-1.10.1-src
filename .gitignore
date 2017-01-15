@@ -1,0 +1,11 @@
+build 
+Makefile
+configure
+man
+nginx
+objs
+conf
+docs
+*.xcodeproj
+sdk
+auto
